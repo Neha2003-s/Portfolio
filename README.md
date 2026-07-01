@@ -1,49 +1,14 @@
-# Neha Singh — Design × Engineering Portfolio
+# Neha Singh
 
-A high-fidelity, interactive digital portfolio showcasing projects across visual branding, full-stack tools, and machine learning pipelines. 
+Designer & Creative Technologist. 
 
----
+I bridge the gap between how things look and how they work. I lead with visual instinct and back it up with code — whether that is a brand identity system, a motion-forward user interface, or an ML-powered creative pipeline. 
 
-## 🚀 Key Features
-
-* **3D Page-Flipping Book Decks**: PDF publications (brand manuals, brochures, and certificates) are automatically extracted page-by-page into image decks and rendered inside an interactive 3D-flipping book layout.
-* **Playable Canvas Mini-Game (`NEH-RUN`)**: An integrated retro running game featuring twinkling stars, parallax clouds, scrolling sand dunes, and real-time score keeping.
-* **WebGL Dithered Halftones**: An analog dither canvas shader that dynamically processes project thumbnail images into a stylized dithered bitmap.
-* **Playful Vault Bootloader**: An interactive prank-button loading overlay that dodges the cursor before allowing entrance.
-* **Automated Project Scanning**: A Node script (`scan-projects.cjs`) that recursively scans asset folders at build-time to compile the portfolio index dynamically.
+I design it, then build it myself — no handoff, no waiting around, no drama (okay, some drama). These days that's training image models, building UIs with actual personality, and shipping full projects end-to-end. Logos remain the one exception. Long story.
 
 ---
 
-## 🛠️ Tech Stack
-
-* **Core**: React 18, TypeScript, Vite
-* **Styling**: Tailwind CSS
-* **Animations**: Canvas 2D, WebGL Shaders, CSS Animations
-* **VFX Engine**: custom dither matrix shaders
-
----
-
-## 💻 Commands
-
-### Install Dependencies
-```bash
-npm install
-```
-
-### Local Development
-Runs the automated scan script and boots the local Vite development server:
-```bash
-npm run dev
-```
-
-### Production Build
-Generates the project configuration index and compiles all assets:
-```bash
-npm run build
-```
-
-### Deploy to GitHub Pages
-Deploys the production bundle to GitHub Pages:
-```bash
-npm run deploy
-```
+### Links
+* **GitHub**: [github.com/Neha2003-s](https://github.com/Neha2003-s)
+* **LinkedIn**: [linkedin.com/in/neha-singh-2b4ab0336](https://www.linkedin.com/in/neha-singh-2b4ab0336)
+* **Email**: [ne2003singh@gmail.com](mailto:ne2003singh@gmail.com)
