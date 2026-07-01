@@ -8,10 +8,10 @@ export function Footer() {
   return (
     <footer className="w-full bg-black/75 backdrop-blur-[2px] border-t border-neutral-900">
 
-      <div id="contact" className="px-6 py-20 sm:px-12 sm:py-28">
+      <div id="contact" className="px-6 py-12 sm:px-12 sm:py-28">
         <div className="mx-auto max-w-[1400px]">
 
-          <div className="w-full border-b border-neutral-900 pb-4 mb-14 flex items-center justify-between gap-4">
+          <div className="w-full border-b border-neutral-900 pb-4 mb-10 sm:mb-14 flex items-center justify-between gap-4">
             <div className="flex items-center gap-4">
               <span className="font-mono text-[9px] text-signal tracking-widest">04 /</span>
               <span className="font-mono text-[9px] text-neutral-400 tracking-widest uppercase">Contact</span>

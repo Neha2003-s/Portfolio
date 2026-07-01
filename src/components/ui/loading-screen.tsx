@@ -48,16 +48,19 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
   const handleButtonHover = () => {
     if (clicked) return
 
+    const isMobile = typeof window !== "undefined" && window.innerWidth < 640
+    const factor = isMobile ? 0.4 : 1.0
+
     if (hoverCount === 0) {
-      setBtnOffset({ x: -160, y: -80 })
+      setBtnOffset({ x: -160 * factor, y: -80 * factor })
       setWarningText("SYSTEM: HEY! I SAID DO NOT PRESS!")
       setHoverCount(1)
     } else if (hoverCount === 1) {
-      setBtnOffset({ x: 170, y: 90 })
+      setBtnOffset({ x: 170 * factor, y: 90 * factor })
       setWarningText("SYSTEM: SERIOUSLY, ARE YOU STILL TRYING?")
       setHoverCount(2)
     } else if (hoverCount === 2) {
-      setBtnOffset({ x: -140, y: 110 })
+      setBtnOffset({ x: -140 * factor, y: 110 * factor })
       setWarningText("SYSTEM: STOP IT! THIS IS CRITICAL CORE MACHINERY!")
       setHoverCount(3)
     } else if (hoverCount === 3) {

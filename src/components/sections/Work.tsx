@@ -140,7 +140,7 @@ export function Work() {
   const totalCards = Math.ceil(activePages.length / 2)
 
   return (
-    <section id="work" className="relative bg-black/75 backdrop-blur-[2px] px-6 py-24 sm:px-12 sm:py-32 border-t border-neutral-900">
+    <section id="work" className="relative bg-black/75 backdrop-blur-[2px] px-6 py-14 sm:px-12 sm:py-32 border-t border-neutral-900">
       <style>{`
         .flip-card-container {
           perspective: 1200px;
@@ -184,7 +184,7 @@ export function Work() {
       `}</style>
 
       <div className="mx-auto max-w-[1400px]">
-        <div className="w-full border-b border-neutral-900 pb-4 mb-16 flex items-center gap-4">
+        <div className="w-full border-b border-neutral-900 pb-4 mb-10 sm:mb-16 flex items-center gap-4">
           <span className="font-mono text-[9px] text-signal tracking-widest">02 /</span>
           <span className="font-mono text-[9px] text-neutral-400 tracking-widest uppercase">Work</span>
           <div className="h-[0.5px] bg-neutral-900 flex-1"></div>

@@ -3,7 +3,7 @@ import { DinoGame } from "@/components/ui/dino-game"
 export function About() {
   const stats = [
     { num: "3+", label: "Years Design" },
-    { num: "20+", label: "Projects Built" },
+    { num: "5", label: "Projects Built" },
     { num: "7", label: "AI Pipelines" },
     { num: "∞", label: "Iterations" },
   ]
@@ -26,9 +26,9 @@ export function About() {
   ]
 
   return (
-    <section id="about" className="relative bg-black/75 backdrop-blur-[2px] px-6 py-24 sm:px-12 sm:py-32 border-t border-neutral-900">
+    <section id="about" className="relative bg-black/75 backdrop-blur-[2px] px-6 py-14 sm:px-12 sm:py-32 border-t border-neutral-900">
       <div className="mx-auto max-w-[1400px]">
-        <div className="w-full border-b border-neutral-900 pb-4 mb-16 flex items-center gap-4">
+        <div className="w-full border-b border-neutral-900 pb-4 mb-10 sm:mb-16 flex items-center gap-4">
           <span className="font-mono text-[9px] text-signal tracking-widest">01 /</span>
           <span className="font-mono text-[9px] text-neutral-400 tracking-widest uppercase">About</span>
           <div className="h-[0.5px] bg-neutral-900 flex-1" />
